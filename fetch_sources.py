@@ -39,10 +39,18 @@ def log(src, **kw):
     print(f"[{src}] " + json.dumps(kw, default=str)[:300])
 
 
-def get(url, binary=False, timeout=120):
-    r = requests.get(url, headers=UA, timeout=timeout, allow_redirects=True)
-    r.raise_for_status()
-    return r.content if binary else r.text
+def get(url, binary=False, timeout=120, tries=3):
+    last = None
+    for attempt in range(tries):
+        try:
+            r = requests.get(url, headers=UA, timeout=timeout, allow_redirects=True)
+            r.raise_for_status()
+            return r.content if binary else r.text
+        except Exception as e:
+            last = e
+            import time
+            time.sleep(10 * (attempt + 1))
+    raise last
 
 
 def save_raw(src, filename, content):
@@ -135,50 +143,72 @@ def fetch_abs():
         log(src, error=str(e), trace=traceback.format_exc()[-400:])
 
 
-# --------------- 2. DoE international student monthly summary tables -------
+# ------------- 2. DoE international student data (direct file URLs) --------
+DOE_FILES = [
+    ("may-2026-all-data", "https://www.education.gov.au/download/20217/international-student-data-year-date-ytd/45085/may-2026-all-data/xlsx"),
+    ("may-2026-latest-data", "https://www.education.gov.au/download/20217/international-student-data-year-date-ytd/45084/may-2026-latest-data/xlsx"),
+    ("december-2025-all-data", "https://www.education.gov.au/download/20217/international-student-data-year-date-ytd/44305/december-2025-all-data/xlsx"),
+]
+
+
+def inventory_big_workbook(src, name, content, cap_rows=300):
+    """Memory-safe inventory + capped CSV dump using openpyxl read_only streaming."""
+    import csv
+    from openpyxl import load_workbook
+    wb = load_workbook(io.BytesIO(content), read_only=True, data_only=True)
+    outdir = CSV / src
+    outdir.mkdir(parents=True, exist_ok=True)
+    inv = []
+    for ws in wb.worksheets:
+        rows_dumped = 0
+        head = []
+        path = outdir / f"{name}__{re.sub(r'[^A-Za-z0-9_-]+', '_', ws.title)[:40]}.csv"
+        with open(path, "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f)
+            total = 0
+            for row in ws.iter_rows(values_only=True):
+                total += 1
+                if total <= cap_rows:
+                    vals = ["" if v is None else str(v) for v in row]
+                    w.writerow(vals)
+                    rows_dumped += 1
+                    if total <= 6:
+                        head.append(vals[:12])
+            inv.append({"sheet": ws.title, "total_rows": total, "dumped_rows": rows_dumped, "head": head})
+    wb.close()
+    return inv
+
+
 def fetch_doe_monthly():
     src = "doe_monthly_summary"
-    try:
-        page = "https://www.education.gov.au/international-education-data-and-research/international-student-monthly-summary-and-data-tables"
-        links = xlsx_links(page, host="https://www.education.gov.au")
-        log(src, page=page, links=links[:10])
-        for i, l in enumerate(links[:4]):  # newest few workbooks
-            try:
-                content = get(l["url"], binary=True)
-                fname = re.sub(r"[^A-Za-z0-9._-]+", "_", l["url"].split("/")[-1].split("?")[0]) or f"doe_{i}.xlsx"
-                save_raw(src, fname, content)
-                inv = dump_workbook(src, fname, content)
-                log(src, **{f"workbook_{i}": {"file": fname, "sheets": [x.get("sheet") for x in inv]}})
-                parse_doe_workbook(content, fname)
-            except Exception as e:
-                log(src, **{f"workbook_{i}_error": str(e)})
-    except Exception as e:
-        log(src, error=str(e), trace=traceback.format_exc()[-400:])
-
-
-def parse_doe_workbook(content, fname):
-    """Best-effort detection of monthly pivots in DoE workbooks.
-    Calibrated after first real run — inventory in manifest guides adjustments."""
-    src = "doe_monthly_summary"
-    try:
-        xls = pd.ExcelFile(io.BytesIO(content))
-        for sheet in xls.sheet_names:
-            if not re.search(r"sector|summary|enrol", sheet, re.I):
-                continue
-            df = xls.parse(sheet, header=None)
-            txt = df.fillna("").astype(str)
-            month_rows = txt.apply(lambda r: sum(bool(re.match(r"^(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)", str(v))) for v in r), axis=1)
-            if month_rows.max() >= 6:
-                log(src, candidate_pivot={"file": fname, "sheet": sheet, "header_row": int(month_rows.idxmax())})
-    except Exception as e:
-        log(src, parse_note=f"{fname}: {e}")
+    for name, url in DOE_FILES:
+        try:
+            content = get(url, binary=True, timeout=600, tries=3)
+            log(src, **{f"{name}_bytes": len(content)})
+            save_raw(src, f"{name}.xlsx", content)  # skipped automatically if > cap
+            inv = inventory_big_workbook(src, name, content)
+            log(src, **{f"{name}_inventory": inv})
+        except Exception as e:
+            log(src, **{f"{name}_error": str(e)})
 
 
 # ------------- 3. data.gov.au — student visas (grants by month etc.) -------
 def fetch_datagov(package_query, src, keep=6):
     try:
-        api = "https://data.gov.au/api/3/action/package_search"
-        r = requests.get(api, params={"q": package_query, "rows": 5}, headers=UA, timeout=60).json()
+        r = None
+        for api in ("https://data.gov.au/data/api/3/action/package_search",
+                    "https://data.gov.au/api/3/action/package_search"):
+            try:
+                resp = requests.get(api, params={"q": package_query, "rows": 5},
+                                    headers={**UA, "Accept": "application/json"}, timeout=60)
+                if "json" in resp.headers.get("content-type", ""):
+                    r = resp.json()
+                    break
+                log(src, **{f"ckan_nonjson_{api[-30:]}": resp.text[:150]})
+            except Exception as e:
+                log(src, **{f"ckan_err_{api[-30:]}": str(e)})
+        if r is None:
+            return
         results = r.get("result", {}).get("results", [])
         log(src, query=package_query, packages=[p["name"] for p in results])
         if not results:
