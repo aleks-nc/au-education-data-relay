@@ -1,0 +1,37 @@
+name: Fetch AU education data
+
+on:
+  schedule:
+    - cron: "10 18 * * *"   # 18:10 UTC = ~04:10 AEST, before the dashboard's 7am refresh
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch and parse sources
+        run: python fetch_sources.py
+
+      - name: Commit results
+        run: |
+          git config user.name "data-relay-bot"
+          git config user.email "actions@github.com"
+          git add -A data/ raw/
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Data refresh $(date -u +%Y-%m-%dT%H:%M)"
+            git push
+          fi
