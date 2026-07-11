@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-11T01:17:30.315823+00:00",
+ "generated_at": "2026-07-11T01:52:03.883659+00:00",
  "sources": {
   "abs_labour_force": {
    "page": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
@@ -17,16 +17,57 @@
    "latest": "May 2026=4.4"
   },
   "doe_monthly_summary": {
-   "error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
-   "trace": "sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/adapters.py\", line 742, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)\n"
+   "may-2026-all-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=600)",
+   "may-2026-latest-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=600)",
+   "december-2025-all-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=600)"
   },
   "homeaffairs_student_visas": {
-   "error": "Expecting value: line 1 column 1 (char 0)",
-   "trace": "e_query, \"rows\": 5}, headers=UA, timeout=60).json()\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+   "query": "student visas",
+   "packages": [
+    "student-visas",
+    "international-student-data",
+    "nsw-3-13947-win-for-nsw-on-international-student-visas",
+    "cricos",
+    "nsw-nsw-education-international-students-enrolled-in-nsw-public-schools"
+   ],
+   "resources": [
+    {
+     "name": "BP0015 Student visa grant rates at 2026-05-31",
+     "modified": "2026-06-25T01:13:24.902908"
+    },
+    {
+     "name": "BP0015 Student visas granted report at 2026-05-31",
+     "modified": "2026-06-25T01:11:29.483702"
+    },
+    {
+     "name": "BP0015 Student visas lodged report at 2026-05-31",
+     "modified": "2026-06-25T01:04:54.084107"
+    },
+    {
+     "name": "Student visa program Resources",
+     "modified": "2025-07-03T06:43:18.566661"
+    }
+   ]
   },
   "homeaffairs_temp_entrants": {
-   "error": "Expecting value: line 1 column 1 (char 0)",
-   "trace": "e_query, \"rows\": 5}, headers=UA, timeout=60).json()\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+   "query": "temporary entrants visa holders",
+   "packages": [
+    "temporary-entrants-visa-holders",
+    "nsw-3-11938-government-gazette-of-the-state-of-new-south-wales-week-no-47-2002",
+    "nsw-3-11950-government-gazette-of-the-state-of-new-south-wales-week-no-35-2002",
+    "nsw-3-11924-government-gazette-of-the-state-of-new-south-wales-week-no-09-2003",
+    "department-of-human-services-annual-report"
+   ],
+   "resources": [
+    {
+     "name": "BP0019 Number of Temporary visa holders in Australia at 2026-05-31",
+     "modified": "2026-06-25T01:32:32.059710"
+    },
+    {
+     "name": "Temporary visa holders in Australia Resources",
+     "modified": "2025-07-03T06:40:16.800639"
+    }
+   ]
   },
   "ncver": {
    "page_error_trainees-2025-december-quarter": "403 Client Error: Forbidden for url: https://www.ncver.edu.au/research-and-statistics/publications/all-publications/apprentices-and-trainees-2025-december-quarter",
