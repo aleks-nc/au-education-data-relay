@@ -1,0 +1,757 @@
+,,,,,,,,,,,
+,Time Series Workbook,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,"6202.0 Labour Force, Australia",,,,,,,,,,
+,"Table 010. Labour force status by Sex, State and Territory - Trend, Seasonally adjusted and Original",,,,,,,,,,
+,,,,,,,,,,,
+,,,Enquiries,,,,,,,,
+,,,,,,,,,,,
+Data Item Description,,,Series Type,Series ID,Series Start,Series End,No. Obs.,Unit,Data Type,Freq.,Collection Month
+,,,,,,,,,,,
+Employed total ;  Persons ;  Australia ;,,,Trend,A84423127L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423043C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  Australia ;,,,Original,A84423085A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > New South Wales ;,,,Trend,A84423937R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > New South Wales ;,,,Seasonally Adjusted,A84423265K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > New South Wales ;,,,Original,A84423601K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Victoria ;,,,Trend,A84424021J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Victoria ;,,,Seasonally Adjusted,A84423349V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Victoria ;,,,Original,A84423685F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Queensland ;,,,Trend,A84423951K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Queensland ;,,,Seasonally Adjusted,A84423279X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Queensland ;,,,Original,A84423615X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > South Australia ;,,,Trend,A84424035W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > South Australia ;,,,Seasonally Adjusted,A84423363R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > South Australia ;,,,Original,A84423699V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Western Australia ;,,,Trend,A84423993J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Western Australia ;,,,Seasonally Adjusted,A84423321T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Western Australia ;,,,Original,A84423657W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Tasmania ;,,,Trend,A84423965X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Tasmania ;,,,Seasonally Adjusted,A84423293V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Tasmania ;,,,Original,A84423629L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Northern Territory ;,,,Trend,A84424007L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Northern Territory ;,,,Original,A84423671T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Australian Capital Territory ;,,,Trend,A84423979L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423643J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  Australia ;,,,Trend,A84423113X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423029J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  Australia ;,,,Original,A84423071L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > New South Wales ;,,,Trend,A84423825W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > New South Wales ;,,,Seasonally Adjusted,A84423153T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > New South Wales ;,,,Original,A84423489W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Victoria ;,,,Trend,A84423909F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Victoria ;,,,Seasonally Adjusted,A84423237A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Victoria ;,,,Original,A84423573L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Queensland ;,,,Trend,A84423839K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Queensland ;,,,Seasonally Adjusted,A84423167F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Queensland ;,,,Original,A84423503F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > South Australia ;,,,Trend,A84423923A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > South Australia ;,,,Seasonally Adjusted,A84423251W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > South Australia ;,,,Original,A84423587A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Western Australia ;,,,Trend,A84423881R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Western Australia ;,,,Seasonally Adjusted,A84423209T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Western Australia ;,,,Original,A84423545C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Tasmania ;,,,Trend,A84423853F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Tasmania ;,,,Seasonally Adjusted,A84423181A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Tasmania ;,,,Original,A84423517V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Northern Territory ;,,,Trend,A84423895C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Northern Territory ;,,,Original,A84423559T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Australian Capital Territory ;,,,Trend,A84423867V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423531R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  Australia ;,,,Trend,A84423141J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423057T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  Australia ;,,,Original,A84423099R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > New South Wales ;,,,Trend,A84424049K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > New South Wales ;,,,Seasonally Adjusted,A84423377C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > New South Wales ;,,,Original,A84423713C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Victoria ;,,,Trend,A84424133A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Victoria ;,,,Seasonally Adjusted,A84423461V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Victoria ;,,,Original,A84423797X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Queensland ;,,,Trend,A84424063F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Queensland ;,,,Seasonally Adjusted,A84423391X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Queensland ;,,,Original,A84423727T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > South Australia ;,,,Trend,A84424147R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > South Australia ;,,,Seasonally Adjusted,A84423475J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > South Australia ;,,,Original,A84423811J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Western Australia ;,,,Trend,A84424105T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Western Australia ;,,,Seasonally Adjusted,A84423433K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Western Australia ;,,,Original,A84423769R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Tasmania ;,,,Trend,A84424077V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Tasmania ;,,,Seasonally Adjusted,A84423405A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Tasmania ;,,,Original,A84423741L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Northern Territory ;,,,Trend,A84424119F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Northern Territory ;,,,Original,A84423783K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Australian Capital Territory ;,,,Trend,A84424091R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employed total ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423755A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  Australia ;,,,Trend,A84423125J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423041X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  Australia ;,,,Original,A84423083W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > New South Wales ;,,,Trend,A84423945R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > New South Wales ;,,,Seasonally Adjusted,A84423273K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > New South Wales ;,,,Original,A84423609C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Victoria ;,,,Trend,A84424029A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Victoria ;,,,Seasonally Adjusted,A84423357V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Victoria ;,,,Original,A84423693F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Queensland ;,,,Trend,A84423959C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Queensland ;,,,Seasonally Adjusted,A84423287X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Queensland ;,,,Original,A84423623X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > South Australia ;,,,Trend,A84424043W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > South Australia ;,,,Seasonally Adjusted,A84423371R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > South Australia ;,,,Original,A84423707J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Western Australia ;,,,Trend,A84424001X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Western Australia ;,,,Seasonally Adjusted,A84423329K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Western Australia ;,,,Original,A84423665W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Tasmania ;,,,Trend,A84423973X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Tasmania ;,,,Seasonally Adjusted,A84423301J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Tasmania ;,,,Original,A84423637L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Northern Territory ;,,,Trend,A84424015L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Northern Territory ;,,,Original,A84423679K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Australian Capital Territory ;,,,Trend,A84423987L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423651J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  Australia ;,,,Trend,A84423111V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423027C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  Australia ;,,,Original,A84423069A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > New South Wales ;,,,Trend,A84423833W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > New South Wales ;,,,Seasonally Adjusted,A84423161T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > New South Wales ;,,,Original,A84423497W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Victoria ;,,,Trend,A84423917F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Victoria ;,,,Seasonally Adjusted,A84423245A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Victoria ;,,,Original,A84423581L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Queensland ;,,,Trend,A84423847K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Queensland ;,,,Seasonally Adjusted,A84423175F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Queensland ;,,,Original,A84423511F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > South Australia ;,,,Trend,A84423931A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > South Australia ;,,,Seasonally Adjusted,A84423259R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > South Australia ;,,,Original,A84423595A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Western Australia ;,,,Trend,A84423889J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Western Australia ;,,,Seasonally Adjusted,A84423217T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Western Australia ;,,,Original,A84423553C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Tasmania ;,,,Trend,A84423861F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Tasmania ;,,,Seasonally Adjusted,A84423189V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Tasmania ;,,,Original,A84423525V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Northern Territory ;,,,Trend,A84423903T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Northern Territory ;,,,Original,A84423567T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Australian Capital Territory ;,,,Trend,A84423875V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423539J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  Australia ;,,,Trend,A84423139W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423055L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  Australia ;,,,Original,A84423097K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > New South Wales ;,,,Trend,A84424057K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > New South Wales ;,,,Seasonally Adjusted,A84423385C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > New South Wales ;,,,Original,A84423721C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Victoria ;,,,Trend,A84424141A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Victoria ;,,,Seasonally Adjusted,A84423469L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Victoria ;,,,Original,A84423805L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Queensland ;,,,Trend,A84424071F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Queensland ;,,,Seasonally Adjusted,A84423399T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Queensland ;,,,Original,A84423735T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > South Australia ;,,,Trend,A84424155R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > South Australia ;,,,Seasonally Adjusted,A84423483J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > South Australia ;,,,Original,A84423819A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Western Australia ;,,,Trend,A84424113T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Western Australia ;,,,Seasonally Adjusted,A84423441K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Western Australia ;,,,Original,A84423777R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Tasmania ;,,,Trend,A84424085V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Tasmania ;,,,Seasonally Adjusted,A84423413A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Tasmania ;,,,Original,A84423749F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Northern Territory ;,,,Trend,A84424127F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Northern Territory ;,,,Original,A84423791K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Australian Capital Territory ;,,,Trend,A84424099J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed full-time ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423763A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  Australia ;,,,Trend,A84423126K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423042A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  Australia ;,,,Original,A84423084X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  > New South Wales ;,,,Original,A84423610L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  > Victoria ;,,,Original,A84423694J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  > Queensland ;,,,Original,A84423624A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  > South Australia ;,,,Original,A84423708K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  > Western Australia ;,,,Original,A84423666X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  > Tasmania ;,,,Original,A84423638R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  > Northern Territory ;,,,Original,A84423680V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423652K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  Australia ;,,,Trend,A84423112W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423028F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  Australia ;,,,Original,A84423070K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  > New South Wales ;,,,Original,A84423498X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  > Victoria ;,,,Original,A84423582R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  > Queensland ;,,,Original,A84423512J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  > South Australia ;,,,Original,A84423596C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  > Western Australia ;,,,Original,A84423554F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  > Tasmania ;,,,Original,A84423526W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  > Northern Territory ;,,,Original,A84423568V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423540T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  Australia ;,,,Trend,A84423140F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423056R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  Australia ;,,,Original,A84423098L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  > New South Wales ;,,,Original,A84423722F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  > Victoria ;,,,Original,A84423806R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  > Queensland ;,,,Original,A84423736V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  > South Australia ;,,,Original,A84423820K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  > Western Australia ;,,,Original,A84423778T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  > Tasmania ;,,,Original,A84423750R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  > Northern Territory ;,,,Original,A84423792L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Employed part-time ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423764C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Employment to population ratio ;  Persons ;  Australia ;,,,Trend,A84423138V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423054K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  Australia ;,,,Original,A84423096J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > New South Wales ;,,,Trend,A84423944L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > New South Wales ;,,,Seasonally Adjusted,A84423272J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > New South Wales ;,,,Original,A84423608A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Victoria ;,,,Trend,A84424028X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Victoria ;,,,Seasonally Adjusted,A84423356T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Victoria ;,,,Original,A84423692C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Queensland ;,,,Trend,A84423958A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Queensland ;,,,Seasonally Adjusted,A84423286W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Queensland ;,,,Original,A84423622W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > South Australia ;,,,Trend,A84424042V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > South Australia ;,,,Seasonally Adjusted,A84423370L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > South Australia ;,,,Original,A84423706F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Western Australia ;,,,Trend,A84424000W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Western Australia ;,,,Seasonally Adjusted,A84423328J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Western Australia ;,,,Original,A84423664V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Tasmania ;,,,Trend,A84423972W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Tasmania ;,,,Seasonally Adjusted,A84423300F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Tasmania ;,,,Original,A84423636K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Northern Territory ;,,,Trend,A84424014K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Northern Territory ;,,,Original,A84423678J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Australian Capital Territory ;,,,Trend,A84423986K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423650F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  Australia ;,,,Trend,A84423124F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423040W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  Australia ;,,,Original,A84423082V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > New South Wales ;,,,Trend,A84423832V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > New South Wales ;,,,Seasonally Adjusted,A84423160R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > New South Wales ;,,,Original,A84423496V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Victoria ;,,,Trend,A84423916C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Victoria ;,,,Seasonally Adjusted,A84423244X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Victoria ;,,,Original,A84423580K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Queensland ;,,,Trend,A84423846J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Queensland ;,,,Seasonally Adjusted,A84423174C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Queensland ;,,,Original,A84423510C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > South Australia ;,,,Trend,A84423930X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > South Australia ;,,,Seasonally Adjusted,A84423258L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > South Australia ;,,,Original,A84423594X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Western Australia ;,,,Trend,A84423888F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Western Australia ;,,,Seasonally Adjusted,A84423216R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Western Australia ;,,,Original,A84423552A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Tasmania ;,,,Trend,A84423860C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Tasmania ;,,,Seasonally Adjusted,A84423188T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Tasmania ;,,,Original,A84423524T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Northern Territory ;,,,Trend,A84423902R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Northern Territory ;,,,Original,A84423566R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Australian Capital Territory ;,,,Trend,A84423874T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423538F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  Australia ;,,,Trend,A84423152R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423068X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  Australia ;,,,Original,A84423110T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > New South Wales ;,,,Trend,A84424056J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > New South Wales ;,,,Seasonally Adjusted,A84423384A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > New South Wales ;,,,Original,A84423720A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Victoria ;,,,Trend,A84424140X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Victoria ;,,,Seasonally Adjusted,A84423468K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Victoria ;,,,Original,A84423804K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Queensland ;,,,Trend,A84424070C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Queensland ;,,,Seasonally Adjusted,A84423398R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Queensland ;,,,Original,A84423734R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > South Australia ;,,,Trend,A84424154L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > South Australia ;,,,Seasonally Adjusted,A84423482F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > South Australia ;,,,Original,A84423818X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Western Australia ;,,,Trend,A84424112R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Western Australia ;,,,Seasonally Adjusted,A84423440J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Western Australia ;,,,Original,A84423776L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Tasmania ;,,,Trend,A84424084T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Tasmania ;,,,Seasonally Adjusted,A84423412X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Tasmania ;,,,Original,A84423748C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Northern Territory ;,,,Trend,A84424126C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Northern Territory ;,,,Original,A84423790J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Australian Capital Territory ;,,,Trend,A84424098F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Employment to population ratio ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423762X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployed total ;  Persons ;  Australia ;,,,Trend,A84423130A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423046K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  Australia ;,,,Original,A84423088J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > New South Wales ;,,,Trend,A84423938T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > New South Wales ;,,,Seasonally Adjusted,A84423266L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > New South Wales ;,,,Original,A84423602L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Victoria ;,,,Trend,A84424022K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Victoria ;,,,Seasonally Adjusted,A84423350C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Victoria ;,,,Original,A84423686J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Queensland ;,,,Trend,A84423952L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Queensland ;,,,Seasonally Adjusted,A84423280J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Queensland ;,,,Original,A84423616A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > South Australia ;,,,Trend,A84424036X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > South Australia ;,,,Seasonally Adjusted,A84423364T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > South Australia ;,,,Original,A84423700T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Western Australia ;,,,Trend,A84423994K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Western Australia ;,,,Seasonally Adjusted,A84423322V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Western Australia ;,,,Original,A84423658X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Tasmania ;,,,Trend,A84423966A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Tasmania ;,,,Seasonally Adjusted,A84423294W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Tasmania ;,,,Original,A84423630W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Northern Territory ;,,,Trend,A84424008R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Northern Territory ;,,,Original,A84423672V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Australian Capital Territory ;,,,Trend,A84423980W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423644K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  Australia ;,,,Trend,A84423116F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423032W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  Australia ;,,,Original,A84423074V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > New South Wales ;,,,Trend,A84423826X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > New South Wales ;,,,Seasonally Adjusted,A84423154V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > New South Wales ;,,,Original,A84423490F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Victoria ;,,,Trend,A84423910R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Victoria ;,,,Seasonally Adjusted,A84423238C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Victoria ;,,,Original,A84423574R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Queensland ;,,,Trend,A84423840V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Queensland ;,,,Seasonally Adjusted,A84423168J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Queensland ;,,,Original,A84423504J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > South Australia ;,,,Trend,A84423924C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > South Australia ;,,,Seasonally Adjusted,A84423252X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > South Australia ;,,,Original,A84423588C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Western Australia ;,,,Trend,A84423882T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Western Australia ;,,,Seasonally Adjusted,A84423210A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Western Australia ;,,,Original,A84423546F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Tasmania ;,,,Trend,A84423854J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Tasmania ;,,,Seasonally Adjusted,A84423182C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Tasmania ;,,,Original,A84423518W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Northern Territory ;,,,Trend,A84423896F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Northern Territory ;,,,Original,A84423560A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Australian Capital Territory ;,,,Trend,A84423868W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423532T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  Australia ;,,,Trend,A84423144R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423060F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  Australia ;,,,Original,A84423102T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > New South Wales ;,,,Trend,A84424050V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > New South Wales ;,,,Seasonally Adjusted,A84423378F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > New South Wales ;,,,Original,A84423714F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Victoria ;,,,Trend,A84424134C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Victoria ;,,,Seasonally Adjusted,A84423462W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Victoria ;,,,Original,A84423798A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Queensland ;,,,Trend,A84424064J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Queensland ;,,,Seasonally Adjusted,A84423392A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Queensland ;,,,Original,A84423728V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > South Australia ;,,,Trend,A84424148T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > South Australia ;,,,Seasonally Adjusted,A84423476K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > South Australia ;,,,Original,A84423812K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Western Australia ;,,,Trend,A84424106V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Western Australia ;,,,Seasonally Adjusted,A84423434L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Western Australia ;,,,Original,A84423770X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Tasmania ;,,,Trend,A84424078W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Tasmania ;,,,Seasonally Adjusted,A84423406C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Tasmania ;,,,Original,A84423742R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Northern Territory ;,,,Trend,A84424120R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Northern Territory ;,,,Original,A84423784L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Australian Capital Territory ;,,,Trend,A84424092T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployed total ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423756C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  Australia ;,,,Trend,A84423128R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423044F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  Australia ;,,,Original,A84423086C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  > New South Wales ;,,,Original,A84423611R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  > Victoria ;,,,Original,A84423695K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  > Queensland ;,,,Original,A84423625C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  > South Australia ;,,,Original,A84423709L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  > Western Australia ;,,,Original,A84423667A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  > Tasmania ;,,,Original,A84423639T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  > Northern Territory ;,,,Original,A84423681W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423653L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  Australia ;,,,Trend,A84423114A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423030T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  Australia ;,,,Original,A84423072R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  > New South Wales ;,,,Original,A84423499A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  > Victoria ;,,,Original,A84423583T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  > Queensland ;,,,Original,A84423513K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  > South Australia ;,,,Original,A84423597F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  > Western Australia ;,,,Original,A84423555J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  > Tasmania ;,,,Original,A84423527X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  > Northern Territory ;,,,Original,A84423569W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423541V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  Australia ;,,,Trend,A84423142K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423058V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  Australia ;,,,Original,A84423100L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  > New South Wales ;,,,Original,A84423723J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  > Victoria ;,,,Original,A84423807T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  > Queensland ;,,,Original,A84423737W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  > South Australia ;,,,Original,A84423821L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  > Western Australia ;,,,Original,A84423779V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  > Tasmania ;,,,Original,A84423751T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  > Northern Territory ;,,,Original,A84423793R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for full-time work ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423765F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  Australia ;,,,Trend,A84423129T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423045J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  Australia ;,,,Original,A84423087F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  > New South Wales ;,,,Original,A84423612T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  > Victoria ;,,,Original,A84423696L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  > Queensland ;,,,Original,A84423626F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  > South Australia ;,,,Original,A84423710W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  > Western Australia ;,,,Original,A84423668C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  > Tasmania ;,,,Original,A84423640A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  > Northern Territory ;,,,Original,A84423682X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423654R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  Australia ;,,,Trend,A84423115C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423031V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  Australia ;,,,Original,A84423073T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  > New South Wales ;,,,Original,A84423500X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  > Victoria ;,,,Original,A84423584V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  > Queensland ;,,,Original,A84423514L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  > South Australia ;,,,Original,A84423598J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  > Western Australia ;,,,Original,A84423556K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  > Tasmania ;,,,Original,A84423528A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  > Northern Territory ;,,,Original,A84423570F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423542W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  Australia ;,,,Trend,A84423143L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423059W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  Australia ;,,,Original,A84423101R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  > New South Wales ;,,,Original,A84423724K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  > Victoria ;,,,Original,A84423808V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  > Queensland ;,,,Original,A84423738X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  > South Australia ;,,,Original,A84423822R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  > Western Australia ;,,,Original,A84423780C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  > Tasmania ;,,,Original,A84423752V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  > Northern Territory ;,,,Original,A84423794T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+> Unemployed looked for only part-time work ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423766J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Unemployment rate ;  Persons ;  Australia ;,,,Trend,A84423134K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423050A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  Australia ;,,,Original,A84423092X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > New South Wales ;,,,Trend,A84423942J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > New South Wales ;,,,Seasonally Adjusted,A84423270C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > New South Wales ;,,,Original,A84423606W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Victoria ;,,,Trend,A84424026V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Victoria ;,,,Seasonally Adjusted,A84423354L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Victoria ;,,,Original,A84423690X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Queensland ;,,,Trend,A84423956W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Queensland ;,,,Seasonally Adjusted,A84423284T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Queensland ;,,,Original,A84423620T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > South Australia ;,,,Trend,A84424040R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > South Australia ;,,,Seasonally Adjusted,A84423368A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > South Australia ;,,,Original,A84423704A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Western Australia ;,,,Trend,A84423998V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Western Australia ;,,,Seasonally Adjusted,A84423326C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Western Australia ;,,,Original,A84423662R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Tasmania ;,,,Trend,A84423970T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Tasmania ;,,,Seasonally Adjusted,A84423298F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Tasmania ;,,,Original,A84423634F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Northern Territory ;,,,Trend,A84424012F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Northern Territory ;,,,Original,A84423676C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Australian Capital Territory ;,,,Trend,A84423984F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423648V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  Australia ;,,,Trend,A84423120W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423036F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  Australia ;,,,Original,A84423078C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > New South Wales ;,,,Trend,A84423830R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > New South Wales ;,,,Seasonally Adjusted,A84423158C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > New South Wales ;,,,Original,A84423494R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Victoria ;,,,Trend,A84423914X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Victoria ;,,,Seasonally Adjusted,A84423242V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Victoria ;,,,Original,A84423578X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Queensland ;,,,Trend,A84423844C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Queensland ;,,,Seasonally Adjusted,A84423172X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Queensland ;,,,Original,A84423508T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > South Australia ;,,,Trend,A84423928L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > South Australia ;,,,Seasonally Adjusted,A84423256J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > South Australia ;,,,Original,A84423592V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Western Australia ;,,,Trend,A84423886A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Western Australia ;,,,Seasonally Adjusted,A84423214K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Western Australia ;,,,Original,A84423550W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Tasmania ;,,,Trend,A84423858T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Tasmania ;,,,Seasonally Adjusted,A84423186L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Tasmania ;,,,Original,A84423522L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Northern Territory ;,,,Trend,A84423900K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Northern Territory ;,,,Original,A84423564K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Australian Capital Territory ;,,,Trend,A84423872L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423536A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  Australia ;,,,Trend,A84423148X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423064R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  Australia ;,,,Original,A84423106A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > New South Wales ;,,,Trend,A84424054C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > New South Wales ;,,,Seasonally Adjusted,A84423382W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > New South Wales ;,,,Original,A84423718R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Victoria ;,,,Trend,A84424138L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Victoria ;,,,Seasonally Adjusted,A84423466F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Victoria ;,,,Original,A84423802F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Queensland ;,,,Trend,A84424068T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Queensland ;,,,Seasonally Adjusted,A84423396K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Queensland ;,,,Original,A84423732K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > South Australia ;,,,Trend,A84424152J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > South Australia ;,,,Seasonally Adjusted,A84423480A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > South Australia ;,,,Original,A84423816V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Western Australia ;,,,Trend,A84424110K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Western Australia ;,,,Seasonally Adjusted,A84423438W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Western Australia ;,,,Original,A84423774J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Tasmania ;,,,Trend,A84424082L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Tasmania ;,,,Seasonally Adjusted,A84423410V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Tasmania ;,,,Original,A84423746X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Northern Territory ;,,,Trend,A84424124X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Northern Territory ;,,,Original,A84423788W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Australian Capital Territory ;,,,Trend,A84424096A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Unemployment rate ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423760V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  Australia ;,,,Trend,A84423136R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423052F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  Australia ;,,,Original,A84423094C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  > New South Wales ;,,,Original,A84423613V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  > Victoria ;,,,Original,A84423697R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  > Queensland ;,,,Original,A84423627J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  > South Australia ;,,,Original,A84423711X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  > Western Australia ;,,,Original,A84423669F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  > Tasmania ;,,,Original,A84423641C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  > Northern Territory ;,,,Original,A84423683A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423655T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  Australia ;,,,Trend,A84423122A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423038K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  Australia ;,,,Original,A84423080R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  > New South Wales ;,,,Original,A84423501A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  > Victoria ;,,,Original,A84423585W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  > Queensland ;,,,Original,A84423515R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  > South Australia ;,,,Original,A84423599K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  > Western Australia ;,,,Original,A84423557L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  > Tasmania ;,,,Original,A84423529C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  > Northern Territory ;,,,Original,A84423571J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423543X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  Australia ;,,,Trend,A84423150K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423066V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  Australia ;,,,Original,A84423108F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  > New South Wales ;,,,Original,A84423725L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  > Victoria ;,,,Original,A84423809W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  > Queensland ;,,,Original,A84423739A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  > South Australia ;,,,Original,A84423823T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  > Western Australia ;,,,Original,A84423781F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  > Tasmania ;,,,Original,A84423753W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  > Northern Territory ;,,,Original,A84423795V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for full-time work ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423767K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  Australia ;,,,Trend,A84423137T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423053J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  Australia ;,,,Original,A84423095F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  > New South Wales ;,,,Original,A84423614W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  > Victoria ;,,,Original,A84423698T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  > Queensland ;,,,Original,A84423628K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  > South Australia ;,,,Original,A84423712A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  > Western Australia ;,,,Original,A84423670R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  > Tasmania ;,,,Original,A84423642F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  > Northern Territory ;,,,Original,A84423684C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423656V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  Australia ;,,,Trend,A84423123C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423039L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  Australia ;,,,Original,A84423081T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  > New South Wales ;,,,Original,A84423502C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  > Victoria ;,,,Original,A84423586X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  > Queensland ;,,,Original,A84423516T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  > South Australia ;,,,Original,A84423600J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  > Western Australia ;,,,Original,A84423558R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  > Tasmania ;,,,Original,A84423530L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  > Northern Territory ;,,,Original,A84423572K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423544A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  Australia ;,,,Trend,A84423151L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423067W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  Australia ;,,,Original,A84423109J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  > New South Wales ;,,,Original,A84423726R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  > Victoria ;,,,Original,A84423810F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  > Queensland ;,,,Original,A84423740K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  > South Australia ;,,,Original,A84423824V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  > Western Australia ;,,,Original,A84423782J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  > Tasmania ;,,,Original,A84423754X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  > Northern Territory ;,,,Original,A84423796W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+> Unemployment rate looked for only part-time work ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423768L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Labour force total ;  Persons ;  Australia ;,,,Trend,A84423131C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423047L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  Australia ;,,,Original,A84423089K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > New South Wales ;,,,Trend,A84423939V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > New South Wales ;,,,Seasonally Adjusted,A84423267R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > New South Wales ;,,,Original,A84423603R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Victoria ;,,,Trend,A84424023L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Victoria ;,,,Seasonally Adjusted,A84423351F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Victoria ;,,,Original,A84423687K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Queensland ;,,,Trend,A84423953R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Queensland ;,,,Seasonally Adjusted,A84423281K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Queensland ;,,,Original,A84423617C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > South Australia ;,,,Trend,A84424037A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > South Australia ;,,,Seasonally Adjusted,A84423365V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > South Australia ;,,,Original,A84423701V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Western Australia ;,,,Trend,A84423995L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Western Australia ;,,,Seasonally Adjusted,A84423323W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Western Australia ;,,,Original,A84423659A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Tasmania ;,,,Trend,A84423967C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Tasmania ;,,,Seasonally Adjusted,A84423295X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Tasmania ;,,,Original,A84423631X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Northern Territory ;,,,Trend,A84424009T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Northern Territory ;,,,Original,A84423673W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Australian Capital Territory ;,,,Trend,A84423981X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423645L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  Australia ;,,,Trend,A84423117J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423033X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  Australia ;,,,Original,A84423075W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > New South Wales ;,,,Trend,A84423827A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > New South Wales ;,,,Seasonally Adjusted,A84423155W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > New South Wales ;,,,Original,A84423491J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Victoria ;,,,Trend,A84423911T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Victoria ;,,,Seasonally Adjusted,A84423239F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Victoria ;,,,Original,A84423575T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Queensland ;,,,Trend,A84423841W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Queensland ;,,,Seasonally Adjusted,A84423169K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Queensland ;,,,Original,A84423505K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > South Australia ;,,,Trend,A84423925F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > South Australia ;,,,Seasonally Adjusted,A84423253A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > South Australia ;,,,Original,A84423589F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Western Australia ;,,,Trend,A84423883V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Western Australia ;,,,Seasonally Adjusted,A84423211C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Western Australia ;,,,Original,A84423547J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Tasmania ;,,,Trend,A84423855K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Tasmania ;,,,Seasonally Adjusted,A84423183F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Tasmania ;,,,Original,A84423519X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Northern Territory ;,,,Trend,A84423897J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Northern Territory ;,,,Original,A84423561C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Australian Capital Territory ;,,,Trend,A84423869X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423533V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  Australia ;,,,Trend,A84423145T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423061J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  Australia ;,,,Original,A84423103V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > New South Wales ;,,,Trend,A84424051W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > New South Wales ;,,,Seasonally Adjusted,A84423379J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > New South Wales ;,,,Original,A84423715J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Victoria ;,,,Trend,A84424135F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Victoria ;,,,Seasonally Adjusted,A84423463X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Victoria ;,,,Original,A84423799C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Queensland ;,,,Trend,A84424065K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Queensland ;,,,Seasonally Adjusted,A84423393C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Queensland ;,,,Original,A84423729W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > South Australia ;,,,Trend,A84424149V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > South Australia ;,,,Seasonally Adjusted,A84423477L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > South Australia ;,,,Original,A84423813L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Western Australia ;,,,Trend,A84424107W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Western Australia ;,,,Seasonally Adjusted,A84423435R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Western Australia ;,,,Original,A84423771A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Tasmania ;,,,Trend,A84424079X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Tasmania ;,,,Seasonally Adjusted,A84423407F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Tasmania ;,,,Original,A84423743T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Northern Territory ;,,,Trend,A84424121T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Northern Territory ;,,,Original,A84423785R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Australian Capital Territory ;,,,Trend,A84424093V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Labour force total ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423757F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Participation rate ;  Persons ;  Australia ;,,,Trend,A84423135L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  Australia ;,,,Seasonally Adjusted,A84423051C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  Australia ;,,,Original,A84423093A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > New South Wales ;,,,Trend,A84423943K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > New South Wales ;,,,Seasonally Adjusted,A84423271F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > New South Wales ;,,,Original,A84423607X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Victoria ;,,,Trend,A84424027W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Victoria ;,,,Seasonally Adjusted,A84423355R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Victoria ;,,,Original,A84423691A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Queensland ;,,,Trend,A84423957X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Queensland ;,,,Seasonally Adjusted,A84423285V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Queensland ;,,,Original,A84423621V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > South Australia ;,,,Trend,A84424041T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > South Australia ;,,,Seasonally Adjusted,A84423369C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > South Australia ;,,,Original,A84423705C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Western Australia ;,,,Trend,A84423999W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Western Australia ;,,,Seasonally Adjusted,A84423327F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Western Australia ;,,,Original,A84423663T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Tasmania ;,,,Trend,A84423971V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Tasmania ;,,,Seasonally Adjusted,A84423299J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Tasmania ;,,,Original,A84423635J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Northern Territory ;,,,Trend,A84424013J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Northern Territory ;,,,Original,A84423677F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Australian Capital Territory ;,,,Trend,A84423985J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423649W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  Australia ;,,,Trend,A84423121X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  Australia ;,,,Seasonally Adjusted,A84423037J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  Australia ;,,,Original,A84423079F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > New South Wales ;,,,Trend,A84423831T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > New South Wales ;,,,Seasonally Adjusted,A84423159F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > New South Wales ;,,,Original,A84423495T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Victoria ;,,,Trend,A84423915A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Victoria ;,,,Seasonally Adjusted,A84423243W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Victoria ;,,,Original,A84423579A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Queensland ;,,,Trend,A84423845F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Queensland ;,,,Seasonally Adjusted,A84423173A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Queensland ;,,,Original,A84423509V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > South Australia ;,,,Trend,A84423929R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > South Australia ;,,,Seasonally Adjusted,A84423257K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > South Australia ;,,,Original,A84423593W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Western Australia ;,,,Trend,A84423887C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Western Australia ;,,,Seasonally Adjusted,A84423215L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Western Australia ;,,,Original,A84423551X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Tasmania ;,,,Trend,A84423859V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Tasmania ;,,,Seasonally Adjusted,A84423187R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Tasmania ;,,,Original,A84423523R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Northern Territory ;,,,Trend,A84423901L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Northern Territory ;,,,Original,A84423565L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Australian Capital Territory ;,,,Trend,A84423873R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423537C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  Australia ;,,,Trend,A84423149A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  Australia ;,,,Seasonally Adjusted,A84423065T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  Australia ;,,,Original,A84423107C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > New South Wales ;,,,Trend,A84424055F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > New South Wales ;,,,Seasonally Adjusted,A84423383X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > New South Wales ;,,,Original,A84423719T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Victoria ;,,,Trend,A84424139R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Victoria ;,,,Seasonally Adjusted,A84423467J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Victoria ;,,,Original,A84423803J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Queensland ;,,,Trend,A84424069V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Queensland ;,,,Seasonally Adjusted,A84423397L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Queensland ;,,,Original,A84423733L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > South Australia ;,,,Trend,A84424153K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > South Australia ;,,,Seasonally Adjusted,A84423481C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > South Australia ;,,,Original,A84423817W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Western Australia ;,,,Trend,A84424111L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Western Australia ;,,,Seasonally Adjusted,A84423439X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Western Australia ;,,,Original,A84423775K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Tasmania ;,,,Trend,A84424083R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Tasmania ;,,,Seasonally Adjusted,A84423411W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Tasmania ;,,,Original,A84423747A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Northern Territory ;,,,Trend,A84424125A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Northern Territory ;,,,Original,A84423789X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Australian Capital Territory ;,,,Trend,A84424097C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Participation rate ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423761W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,Percent,PERCENT,Month,1
+Not in the labour force (NILF) ;  Persons ;  Australia ;,,,Original,A84423090V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  Persons ;  > New South Wales ;,,,Original,A84423604T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  Persons ;  > Victoria ;,,,Original,A84423688L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  Persons ;  > Queensland ;,,,Original,A84423618F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  Persons ;  > South Australia ;,,,Original,A84423702W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  Persons ;  > Western Australia ;,,,Original,A84423660K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  Persons ;  > Tasmania ;,,,Original,A84423632A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  Persons ;  > Northern Territory ;,,,Original,A84423674X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423646R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Males ;  Australia ;,,,Original,A84423076X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Males ;  > New South Wales ;,,,Original,A84423492K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Males ;  > Victoria ;,,,Original,A84423576V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Males ;  > Queensland ;,,,Original,A84423506L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Males ;  > South Australia ;,,,Original,A84423590R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Males ;  > Western Australia ;,,,Original,A84423548K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Males ;  > Tasmania ;,,,Original,A84423520J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Males ;  > Northern Territory ;,,,Original,A84423562F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423534W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Females ;  Australia ;,,,Original,A84423104W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Females ;  > New South Wales ;,,,Original,A84423716K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Females ;  > Victoria ;,,,Original,A84423800A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Females ;  > Queensland ;,,,Original,A84423730F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Females ;  > South Australia ;,,,Original,A84423814R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Females ;  > Western Australia ;,,,Original,A84423772C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Females ;  > Tasmania ;,,,Original,A84423744V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Females ;  > Northern Territory ;,,,Original,A84423786T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Not in the labour force (NILF) ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423758J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  Persons ;  Australia ;,,,Original,A84423091W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  Persons ;  > New South Wales ;,,,Original,A84423605V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  Persons ;  > Victoria ;,,,Original,A84423689R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  Persons ;  > Queensland ;,,,Original,A84423619J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  Persons ;  > South Australia ;,,,Original,A84423703X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  Persons ;  > Western Australia ;,,,Original,A84423661L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  Persons ;  > Tasmania ;,,,Original,A84423633C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  Persons ;  > Northern Territory ;,,,Original,A84423675A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  Persons ;  > Australian Capital Territory ;,,,Original,A84423647T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Males ;  Australia ;,,,Original,A84423077A,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Males ;  > New South Wales ;,,,Original,A84423493L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Males ;  > Victoria ;,,,Original,A84423577W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Males ;  > Queensland ;,,,Original,A84423507R,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Males ;  > South Australia ;,,,Original,A84423591T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Males ;  > Western Australia ;,,,Original,A84423549L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Males ;  > Tasmania ;,,,Original,A84423521K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Males ;  > Northern Territory ;,,,Original,A84423563J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Males ;  > Australian Capital Territory ;,,,Original,A84423535X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Females ;  Australia ;,,,Original,A84423105X,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Females ;  > New South Wales ;,,,Original,A84423717L,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Females ;  > Victoria ;,,,Original,A84423801C,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Females ;  > Queensland ;,,,Original,A84423731J,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Females ;  > South Australia ;,,,Original,A84423815T,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Females ;  > Western Australia ;,,,Original,A84423773F,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Females ;  > Tasmania ;,,,Original,A84423745W,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Females ;  > Northern Territory ;,,,Original,A84423787V,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+Civilian population aged 15 years and over ;  > Females ;  > Australian Capital Territory ;,,,Original,A84423759K,1978-02-01 00:00:00,2026-05-01 00:00:00,580,000,STOCK,Month,1
+,,,,,,,,,,,
+© Commonwealth of Australia  2026,,,,,,,,,,,

@@ -1,0 +1,36 @@
+{
+ "generated_at": "2026-07-11T01:17:30.315823+00:00",
+ "sources": {
+  "abs_labour_force": {
+   "page": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
+   "links_found": 36,
+   "table1": true,
+   "sheets": [
+    "Index",
+    "Data1",
+    "Data2",
+    "Data3",
+    "Enquiries"
+   ],
+   "parsed": "abs_unemployment_monthly",
+   "points": 48,
+   "latest": "May 2026=4.4"
+  },
+  "doe_monthly_summary": {
+   "error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
+   "trace": "sessions.py\", line 784, in send\n    r = adapter.send(request, **kwargs)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/adapters.py\", line 742, in send\n    raise ReadTimeout(e, request=request)\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)\n"
+  },
+  "homeaffairs_student_visas": {
+   "error": "Expecting value: line 1 column 1 (char 0)",
+   "trace": "e_query, \"rows\": 5}, headers=UA, timeout=60).json()\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  "homeaffairs_temp_entrants": {
+   "error": "Expecting value: line 1 column 1 (char 0)",
+   "trace": "e_query, \"rows\": 5}, headers=UA, timeout=60).json()\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py\", line 1120, in json\n    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)\nrequests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n"
+  },
+  "ncver": {
+   "page_error_trainees-2025-december-quarter": "403 Client Error: Forbidden for url: https://www.ncver.edu.au/research-and-statistics/publications/all-publications/apprentices-and-trainees-2025-december-quarter",
+   "page_error_ntices-and-trainees-collection": "403 Client Error: Forbidden for url: https://www.ncver.edu.au/research-and-statistics/collections/apprentices-and-trainees-collection"
+  }
+ }
+}
