@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-07-21T21:46:44.600448+00:00",
+ "generated_at": "2026-07-22T21:55:05.730307+00:00",
  "sources": {
   "abs_labour_force": {
    "page": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
@@ -17,9 +17,9 @@
    "latest": "May 2026=4.4"
   },
   "doe_monthly_summary": {
-   "may-2026-all-data_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "may-2026-latest-data_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "december-2025-all-data_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+   "may-2026-all-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=600)",
+   "may-2026-latest-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=600)",
+   "december-2025-all-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=600)"
   },
   "homeaffairs_student_visas": {
    "query": "student visas",
