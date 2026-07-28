@@ -8,6 +8,10 @@ on:
     paths:
       - "trigger.txt"       # commit a change to trigger.txt to run on demand (sandbox cannot reach api.github.com)
 
+concurrency:
+  group: fetch
+  cancel-in-progress: true
+
 permissions:
   contents: write
 

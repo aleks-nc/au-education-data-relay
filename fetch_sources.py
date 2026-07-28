@@ -183,7 +183,7 @@ def fetch_doe_monthly():
     src = "doe_monthly_summary"
     for name, url in DOE_FILES:
         try:
-            content = get(url, binary=True, timeout=600, tries=3)
+            content = get(url, binary=True, timeout=180, tries=1)  # fail fast: DoE workbooks arrive via the dashboard workbook watch
             log(src, **{f"{name}_bytes": len(content)})
             save_raw(src, f"{name}.xlsx", content)  # skipped automatically if > cap
             inv = inventory_big_workbook(src, name, content)
@@ -432,12 +432,12 @@ def fetch_ncver():
 
 
 def main():
+    fetch_nosc()
     fetch_abs()
-    fetch_doe_monthly()
     fetch_datagov("student visas", "homeaffairs_student_visas")
     fetch_datagov("temporary entrants visa holders", "homeaffairs_temp_entrants")
     fetch_ncver()
-    fetch_nosc()
+    fetch_doe_monthly()
     (DATA / "manifest.json").write_text(json.dumps(manifest, indent=1, default=str), encoding="utf-8")
     (DATA / "series_bundle.json").write_text(json.dumps(bundle, indent=1), encoding="utf-8")
     print(f"\nDone. Bundle datasets: {len(bundle['datasets'])}. "

@@ -1,1 +1,1 @@
-on-demand run requested 2026-07-28T11:52:32.106987Z
+on-demand run (v2: nosc-first, DoE fail-fast) 2026-07-28T11:56:17.118464Z
