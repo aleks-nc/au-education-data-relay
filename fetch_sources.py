@@ -96,7 +96,7 @@ def xlsx_links(page_url, host=None):
     return out
 
 
-# ------------------------- 1. ABS Labour Force (known structure) -----------
+# ────────────────────────── 1. ABS Labour Force (known structure) ──────────
 def fetch_abs():
     src = "abs_labour_force"
     try:
@@ -192,7 +192,7 @@ def fetch_doe_monthly():
             log(src, **{f"{name}_error": str(e)})
 
 
-# ------------- 3. data.gov.au — student visas (grants by month etc.) -------
+# ───────────── 3. data.gov.au — student visas (grants by month etc.) ───────
 def fetch_datagov(package_query, src, keep=6):
     try:
         r = None
@@ -234,7 +234,182 @@ def fetch_datagov(package_query, src, keep=6):
         log(src, error=str(e), trace=traceback.format_exc()[-400:])
 
 
-# ----------------------------- 4. NCVER ------------------------------------
+# ─────────── 3b. NOSC allocation factsheets (DoE + DEWR, provider-level) ───
+NOSC_PAGES = [
+    "https://www.education.gov.au/managed-system-international-education",
+    "https://www.education.gov.au/managed-system-international-education-2026",
+    "https://www.education.gov.au/managed-system-international-education-2027",
+    "https://www.education.gov.au/international-education/resources/managed-system-international-education-2026",
+    "https://www.dewr.gov.au/international-skills-engagement",
+    "https://www.dewr.gov.au/international-skills-engagement/resources/indicative-allocation-vet-new-overseas-student-commencements-2026",
+]
+NOSC_LINK_RE = re.compile(r"indicative[-_ ]allocation|new[-_ ]overseas[-_ ]student|nosc", re.I)
+NOSC_FILE_RE = re.compile(r"\.(pdf|docx|xlsx?|csv)(\?|$)", re.I)
+NOSC_NUM_RE = re.compile(r"\b(\d{1,3}(?:,\d{3})+|\d{2,5})\b")
+NOSC_CODE_RE = re.compile(r"\b(\d{5}[A-Z])\b")
+
+
+def _nosc_rows_from_pdf(content):
+    import pdfplumber
+    rows = []
+    with pdfplumber.open(io.BytesIO(content)) as pdf:
+        for page in pdf.pages:
+            for table in (page.extract_tables() or []):
+                for row in table:
+                    cells = [c.strip() if c else "" for c in row]
+                    if any(cells):
+                        rows.append(cells)
+            if not rows:
+                for line in (page.extract_text() or "").splitlines():
+                    if NOSC_NUM_RE.search(line) and len(line) > 8:
+                        rows.append([line])
+    return rows
+
+
+def _nosc_rows_from_docx(content):
+    import docx
+    doc = docx.Document(io.BytesIO(content))
+    return [[c.text.strip() for c in row.cells]
+            for t in doc.tables for row in t.rows if any(c.text.strip() for c in row.cells)]
+
+
+def _nosc_rows_from_sheet(content):
+    xls = pd.ExcelFile(io.BytesIO(content))
+    rows = []
+    for sheet in xls.sheet_names:
+        df = xls.parse(sheet, header=None).fillna("")
+        rows.extend([[str(c).strip() for c in r] for r in df.values.tolist() if any(str(c).strip() for c in r)])
+    return rows
+
+
+def _nosc_extract(cells):
+    joined = " | ".join(cells)
+    code = None
+    m = NOSC_CODE_RE.search(joined)
+    if m:
+        code = m.group(1)
+    nums = []
+    for c in cells:
+        for n in NOSC_NUM_RE.findall(c):
+            v = int(n.replace(",", ""))
+            if 10 <= v <= 99999:
+                nums.append(v)
+    alloc = nums[-1] if nums else None
+    name_cells = [c for c in cells
+                  if c and len(re.sub(r"[\d,.\s]", "", c)) > 4 and not NOSC_LINK_RE.search(c[:12])]
+    name = max(name_cells, key=len) if name_cells else None
+    return code, name, alloc
+
+
+def fetch_nosc():
+    """Provider-level NOSC allocation factsheets: crawl hub pages, follow resource
+    pages one level, download every allocation document, parse tables into
+    small per-file JSON row dumps the dashboard sandbox can pull via blob view."""
+    src = "nosc"
+    seen_files, out_files = set(), []
+    nosc_dir = DATA / "nosc"
+    nosc_dir.mkdir(parents=True, exist_ok=True)
+    # clear previous run's parsed output so removed files don't linger
+    for old in nosc_dir.glob("*.json"):
+        old.unlink()
+
+    def host_of(u):
+        return re.match(r"https?://[^/]+", u).group(0)
+
+    def absolute(base, href):
+        return href if href.startswith("http") else host_of(base) + href
+
+    def collect_file_links(page_url):
+        html = get(page_url)
+        soup = BeautifulSoup(html, "lxml")
+        files, subpages = [], []
+        for a in soup.find_all("a", href=True):
+            href = absolute(page_url, a["href"])
+            text = a.get_text(" ", strip=True)
+            blob = href + " " + text
+            if not NOSC_LINK_RE.search(blob):
+                continue
+            # education.gov.au /download/ links may lack an extension suffix
+            if NOSC_FILE_RE.search(href) or "/download/" in href:
+                files.append({"url": href, "text": text[:150]})
+            elif host_of(href) == host_of(page_url):
+                subpages.append(href)
+        return files, subpages
+
+    pages = list(NOSC_PAGES)
+    tried_pages, all_files = set(), []
+    while pages:
+        page = pages.pop(0)
+        if page in tried_pages:
+            continue
+        tried_pages.add(page)
+        try:
+            files, subpages = collect_file_links(page)
+            all_files.extend(files)
+            # follow one level of resource pages only
+            if page in NOSC_PAGES:
+                pages.extend(s for s in subpages if s not in tried_pages)
+            log(src, **{f"page_{page.rsplit('/', 1)[-1][:50]}": f"{len(files)} files, {len(subpages)} subpages"})
+        except Exception as e:
+            log(src, **{f"page_error_{page.rsplit('/', 1)[-1][:50]}": str(e)})
+
+    for f in all_files:
+        url = f["url"]
+        if url in seen_files:
+            continue
+        seen_files.add(url)
+        blob = url + " " + f["text"]
+        ym = re.findall(r"20(2[4-9])", blob)
+        year = ("20" + ym[0]) if ym else "unknown"
+        sector = "vet" if re.search(r"vet|vocational|dewr", blob, re.I) else \
+                 ("unis" if re.search(r"universit", blob, re.I) else "he")
+        try:
+            content = get(url, binary=True, timeout=300)
+        except Exception as e:
+            log(src, **{f"dl_error_{url[-60:]}": str(e)})
+            continue
+        head = content[:8]
+        kind = ("pdf" if head.startswith(b"%PDF") else
+                "zip" if head.startswith(b"PK") else "other")
+        fname = re.sub(r"[^A-Za-z0-9._-]+", "_", url.split("/")[-1].split("?")[0])[:80] or "file"
+        save_raw(src, f"{year}_{sector}_{fname}", content)
+        try:
+            if kind == "pdf":
+                rows = _nosc_rows_from_pdf(content)
+            elif kind == "zip" and (fname.lower().endswith(".docx") or b"word/" in content[:4000]):
+                rows = _nosc_rows_from_docx(content)
+            elif kind == "zip":
+                rows = _nosc_rows_from_sheet(content)
+            elif fname.lower().endswith(".csv"):
+                rows = [[c.strip() for c in line.split(",")] for line in content.decode("utf-8", "replace").splitlines() if line.strip()]
+            else:
+                log(src, **{f"skip_{fname[:50]}": f"unrecognised format ({len(content)} bytes)"})
+                continue
+        except Exception as e:
+            log(src, **{f"parse_error_{fname[:50]}": str(e)})
+            continue
+        parsed = []
+        for cells in rows:
+            code, name, alloc = _nosc_extract(cells)
+            if alloc is None or (code is None and name is None):
+                continue
+            parsed.append({"name": name, "code": code, "alloc": alloc})
+        if not parsed:
+            log(src, **{f"norows_{fname[:50]}": f"{len(rows)} raw rows, none parseable — raw committed for calibration"})
+            continue
+        idx = len(out_files)
+        out_name = f"nosc_{year}_{sector}_{idx}.json"
+        (nosc_dir / out_name).write_text(json.dumps({
+            "source_url": url, "link_text": f["text"], "fetched_at": manifest["generated_at"],
+            "year_guess": year, "sector_guess": ("VET" if sector == "vet" else "HE"),
+            "rows": parsed}, indent=0, ensure_ascii=False), encoding="utf-8")
+        out_files.append(f"data/nosc/{out_name}")
+        log(src, **{f"parsed_{out_name}": f"{len(parsed)} provider rows from {fname}"})
+
+    log(src, files=out_files, candidates=len(seen_files))
+
+
+# ───────────────────────────── 4. NCVER ────────────────────────────────────
 def fetch_ncver():
     src = "ncver"
     try:
@@ -262,6 +437,7 @@ def main():
     fetch_datagov("student visas", "homeaffairs_student_visas")
     fetch_datagov("temporary entrants visa holders", "homeaffairs_temp_entrants")
     fetch_ncver()
+    fetch_nosc()
     (DATA / "manifest.json").write_text(json.dumps(manifest, indent=1, default=str), encoding="utf-8")
     (DATA / "series_bundle.json").write_text(json.dumps(bundle, indent=1), encoding="utf-8")
     print(f"\nDone. Bundle datasets: {len(bundle['datasets'])}. "
