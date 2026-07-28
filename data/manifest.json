@@ -1,6 +1,15 @@
 {
- "generated_at": "2026-07-27T21:53:22.520409+00:00",
+ "generated_at": "2026-07-28T11:56:49.948679+00:00",
  "sources": {
+  "nosc": {
+   "page_error_managed-system-international-education": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
+   "page_error_managed-system-international-education-2026": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
+   "page_error_managed-system-international-education-2027": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
+   "page_error_international-skills-engagement": "HTTPSConnectionPool(host='www.dewr.gov.au', port=443): Read timed out. (read timeout=120)",
+   "page_error_indicative-allocation-vet-new-overseas-student-com": "HTTPSConnectionPool(host='www.dewr.gov.au', port=443): Read timed out. (read timeout=120)",
+   "files": [],
+   "candidates": 0
+  },
   "abs_labour_force": {
    "page": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
    "links_found": 31,
@@ -15,11 +24,6 @@
    "parsed": "abs_unemployment_monthly",
    "points": 48,
    "latest": "Jun 2026=4.4"
-  },
-  "doe_monthly_summary": {
-   "may-2026-all-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=600)",
-   "may-2026-latest-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=600)",
-   "december-2025-all-data_error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
   },
   "homeaffairs_student_visas": {
    "query": "student visas",
@@ -72,6 +76,11 @@
   "ncver": {
    "page_error_trainees-2025-december-quarter": "403 Client Error: Forbidden for url: https://www.ncver.edu.au/research-and-statistics/publications/all-publications/apprentices-and-trainees-2025-december-quarter",
    "page_error_ntices-and-trainees-collection": "403 Client Error: Forbidden for url: https://www.ncver.edu.au/research-and-statistics/collections/apprentices-and-trainees-collection"
+  },
+  "doe_monthly_summary": {
+   "may-2026-all-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=180)",
+   "may-2026-latest-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=180)",
+   "december-2025-all-data_error": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=180)"
   }
  }
 }
