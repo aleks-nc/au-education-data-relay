@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-19T18:50:32.373463+00:00",
+ "generated_at": "2026-08-20T18:56:30.164248+00:00",
  "sources": {
   "nosc": {
    "page_error_managed-system-international-education": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
@@ -23,7 +23,7 @@
    ],
    "parsed": "abs_unemployment_monthly",
    "points": 48,
-   "latest": "Jun 2026=4.4"
+   "latest": "Jul 2026=4.5"
   },
   "homeaffairs_student_visas": {
    "query": "student visas",
