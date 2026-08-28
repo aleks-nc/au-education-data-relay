@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-08-26T19:58:49.282304+00:00",
+ "generated_at": "2026-08-28T02:09:04.842887+00:00",
  "sources": {
   "nosc": {
    "page_error_managed-system-international-education": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
@@ -36,16 +36,16 @@
    ],
    "resources": [
     {
-     "name": "BP0015 Student visa grant rates at 2026-06-30",
-     "modified": "2026-07-30T07:01:47.006625"
+     "name": "BP0015 Student visa grant rates at 2026-07-31",
+     "modified": "2026-08-26T22:56:12.613341"
     },
     {
-     "name": "BP0015 Student visas granted report at 2026-06-30",
-     "modified": "2026-07-30T00:59:10.057136"
+     "name": "BP0015 Student visas granted report at 2026-07-31",
+     "modified": "2026-08-26T22:54:50.745219"
     },
     {
-     "name": "BP0015 Student visas lodged report at 2026-06-30",
-     "modified": "2026-07-30T00:57:00.114858"
+     "name": "BP0015 Student visas lodged report at 2026-07-31",
+     "modified": "2026-08-26T22:53:18.722065"
     },
     {
      "name": "Student visa program Resources",
@@ -64,8 +64,8 @@
    ],
    "resources": [
     {
-     "name": "BP0019 Number of Temporary visa holders in Australia at 2026-06-30",
-     "modified": "2026-07-30T00:48:35.725919"
+     "name": "BP0019 Number of Temporary visa holders in Australia at 2026-07-31",
+     "modified": "2026-08-26T22:43:32.934060"
     },
     {
      "name": "Temporary visa holders in Australia Resources",
