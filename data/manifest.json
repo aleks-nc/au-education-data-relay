@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T21:37:02.139022+00:00",
+ "generated_at": "2026-10-15T21:18:34.706626+00:00",
  "sources": {
   "nosc": {
    "page_error_managed-system-international-education": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
@@ -12,7 +12,7 @@
   },
   "abs_labour_force": {
    "page": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
-   "links_found": 31,
+   "links_found": 63,
    "table1": true,
    "sheets": [
     "Index",
@@ -23,7 +23,7 @@
    ],
    "parsed": "abs_unemployment_monthly",
    "points": 48,
-   "latest": "Aug 2026=4.6"
+   "latest": "Sep 2026=4.7"
   },
   "homeaffairs_student_visas": {
    "query": "student visas",
