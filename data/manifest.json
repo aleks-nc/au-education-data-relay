@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T22:07:54.847660+00:00",
+ "generated_at": "2026-10-28T22:30:26.118628+00:00",
  "sources": {
   "nosc": {
    "page_error_managed-system-international-education": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
