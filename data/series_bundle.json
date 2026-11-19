@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T00:54:36.929931+00:00",
+ "generated_at": "2026-11-19T00:17:22.137179+00:00",
  "datasets": [
   {
    "id": "abs_unemployment_monthly",
@@ -11,7 +11,6 @@
    "source_url": "https://www.abs.gov.au/statistics/labour/employment-and-unemployment/labour-force-australia/latest-release",
    "confidence": "high (official ABS spreadsheet, current vintage)",
    "periods": [
-    "Oct 2022",
     "Nov 2022",
     "Dec 2022",
     "Jan 2023",
@@ -58,13 +57,13 @@
     "Jun 2026",
     "Jul 2026",
     "Aug 2026",
-    "Sep 2026"
+    "Sep 2026",
+    "Oct 2026"
    ],
    "series": [
     {
      "name": "Unemployment rate %",
      "values": [
-      3.4,
       3.5,
       3.5,
       3.7,
@@ -84,7 +83,7 @@
       3.9,
       4.1,
       4.0,
-      4.0,
+      4.1,
       4.2,
       4.1,
       4.0,
@@ -108,10 +107,11 @@
       4.3,
       4.5,
       4.4,
-      4.4,
+      4.5,
       4.5,
       4.7,
-      4.7
+      4.7,
+      4.9
      ]
     }
    ]
