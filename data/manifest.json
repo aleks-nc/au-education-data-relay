@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T23:33:36.155752+00:00",
+ "generated_at": "2026-11-24T03:56:47.527072+00:00",
  "sources": {
   "nosc": {
    "page_error_managed-system-international-education": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
@@ -27,51 +27,11 @@
   },
   "homeaffairs_student_visas": {
    "query": "student visas",
-   "packages": [
-    "student-visas",
-    "international-student-data",
-    "nsw-3-13947-win-for-nsw-on-international-student-visas",
-    "cricos",
-    "nsw-nsw-education-international-students-enrolled-in-nsw-public-schools"
-   ],
-   "resources": [
-    {
-     "name": "BP0015 Student visa grant rates at 2026-09-30",
-     "modified": "2026-10-20T23:36:35.658161"
-    },
-    {
-     "name": "BP0015 Student visas granted report at 2026-09-30",
-     "modified": "2026-10-20T23:35:12.337319"
-    },
-    {
-     "name": "BP0015 Student visas lodged report at 2026-09-30",
-     "modified": "2026-10-20T23:33:38.681071"
-    },
-    {
-     "name": "Student visa program Resources",
-     "modified": "2025-07-03T06:43:18.566661"
-    }
-   ]
+   "packages": []
   },
   "homeaffairs_temp_entrants": {
    "query": "temporary entrants visa holders",
-   "packages": [
-    "temporary-entrants-visa-holders",
-    "nsw-3-11938-government-gazette-of-the-state-of-new-south-wales-week-no-47-2002",
-    "nsw-3-11950-government-gazette-of-the-state-of-new-south-wales-week-no-35-2002",
-    "nsw-3-11924-government-gazette-of-the-state-of-new-south-wales-week-no-09-2003",
-    "department-of-human-services-annual-report"
-   ],
-   "resources": [
-    {
-     "name": "BP0019 Number of Temporary visa holders in Australia at 2026-09-30",
-     "modified": "2026-10-20T23:29:45.336063"
-    },
-    {
-     "name": "Temporary visa holders in Australia Resources",
-     "modified": "2025-07-03T06:40:16.800639"
-    }
-   ]
+   "packages": []
   },
   "ncver": {
    "page_error_trainees-2025-december-quarter": "HTTPSConnectionPool(host='www.ncver.edu.au', port=443): Read timed out. (read timeout=120)",
