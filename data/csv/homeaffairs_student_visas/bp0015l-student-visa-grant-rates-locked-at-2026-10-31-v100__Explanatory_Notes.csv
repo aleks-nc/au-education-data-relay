@@ -1,0 +1,23 @@
+,
+,
+,Explanatory Notes
+,
+,Data Sources
+,"Data is sourced from Integrated Client Services Environment (ICSE), Immigration Records Information System (IRIS), Migration Program Management System (MPMS) and Travel and Immigration Processing System (TRIPS)"
+,
+,Business Rules
+,1. This report is based on grant rates which is defined as the number of visas granted divided by the sum of visas granted and refused (decisions) recorded for visa subclass 500 and subclass 570 to 576 
+,    in the current financial year and the previous financial years.
+,2. Data is sourced from several departmental visa processing and recording systems. Data can be dynamic and there can be delays in transmission of information from the department's global operations. 
+,"    Variations in figures between this report and previous issues can occur. Due to these issues, figures in this report should always be considered provisional."
+,3. The age of the client in the table is based on the time at decision. 
+,"4. The education provider registered state is based on student visa holder's confirmation of enrolment (CoE). Where more than one (CoE) is recorded on the visa application, "
+,    the education provider registered state is based on the primary CoE. 
+,"5. For secondary applicants, the registered state is based on the primary applicant. "
+,    'Not Available' under education provider registered state will show for;
+, • Visa applications for Foreign Affairs and Defence Sector as this sector do not have a CoE recorded.
+, • Visa applications by a subsequent entrant.
+,
+,
+,
+,© Commonwealth of Australia

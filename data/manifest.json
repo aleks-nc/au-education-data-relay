@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T01:45:08.552000+00:00",
+ "generated_at": "2026-11-27T01:41:32.159104+00:00",
  "sources": {
   "nosc": {
    "page_error_managed-system-international-education": "HTTPSConnectionPool(host='www.education.gov.au', port=443): Read timed out. (read timeout=120)",
@@ -36,16 +36,16 @@
    ],
    "resources": [
     {
-     "name": "BP0015 Student visa grant rates at 2026-09-30",
-     "modified": "2026-10-20T23:36:35.658161"
+     "name": "BP0015 Student visa grant rates at 2026-10-31",
+     "modified": "2026-11-26T22:34:45.154841"
     },
     {
-     "name": "BP0015 Student visas granted report at 2026-09-30",
-     "modified": "2026-10-20T23:35:12.337319"
+     "name": "BP0015 Student visas granted report at 2026-10-31",
+     "modified": "2026-11-26T22:33:56.199876"
     },
     {
-     "name": "BP0015 Student visas lodged report at 2026-09-30",
-     "modified": "2026-10-20T23:33:38.681071"
+     "name": "BP0015 Student visas lodged report at 2026-10-31",
+     "modified": "2026-11-26T22:32:38.611177"
     },
     {
      "name": "Student visa program Resources",
